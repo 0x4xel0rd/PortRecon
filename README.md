@@ -1,5 +1,5 @@
 # PortRecon
-Automation Scripts for Reconnaissance for Network and Web application Pentesting
+Nmap offers a rich set of scanning techniques—from lightning-fast top-port checks to deeply thorough vulnerability and service enumeration—but chaining them manually can be tedious and error-prone. This script automates a logical progression of scans, starting with the quickest TCP port sweep and common UDP probe, then moving on to a comprehensive all-port scan with open-port extraction, and finally performing in-depth version, script, and vulnerability checks against only the discovered services. By structuring the workflow from faster to slower, you’ll get immediate, actionable results early on, while still capturing all the detailed intelligence you need for a full assessment.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # PortRecon.sh - Nmap Scan Automator
 A simple Bash script to automate common Nmap scans against one or more targets. Saves results to per-host output files and provides a step-by-step overview of:
