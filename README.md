@@ -36,11 +36,11 @@ A simple Bash script to automate common Nmap scans against one or more targets. 
 Clone the repo or download the script:
 
 ```bash
-   git clone https://github.com/yourusername/nmap-scan-automator.git
-   cd nmap-scan-automator
+   git clone https://github.com/0x4xel0rd/PortRecon.git
+   cd PortRecon
 
    chmod +x PortRecon.sh
-   ./nmap-scan-automator.sh <TARGET1> [TARGET2 ... TARGET_N]
-   Example: ./nmap-scan-automator.sh 192.168.1.10 example.com 10.0.0.5
+   ./PortRecon.sh <TARGET1> [TARGET2 ... TARGET_N]
+   Example: ./PortRecon.sh 192.168.1.10 example.com 10.0.0.5
 ```
 
